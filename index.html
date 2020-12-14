@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>XYZ Order</title>
+  <!-- Google Fonts Roboto -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body class="grey lighten-3">
+  <!-- nav bar -->
+  <header>
+        <nav class="navbar navbar-expand-md fixed-top bg-white text-dark border-bottom box-shadow mb-3 text-white">
+          <div class="toggle-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon text-white"style="color:black"></span>
+                </button>
+               <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                     <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                          <a class="nav-link waves-effect waves-light">
+                           <i class="fa fa-bell fa-lg "></i>
+                          </a>
+                        </li>
+                        <li class="nav-item avatar">
+                          <a class="nav-link p-0" href="#">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg" class="rounded-circle z-depth-0"
+                              alt="avatar image" height="35">
+                          </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Administrator
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                            aria-labelledby="navbarDropdownMenuLink-333">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </li>
+
+                       </ul>
+                </div>
+        </nav>
+    </header>
+  <!-- nav bar -->
+
+   <!-- Sidebar -->
+     <div class="sidenav">
+      <div class="navbar-brand">
+        <span class="xyzcolor">XYZ</span>Dispatch
+      </div>
+      <hr class="hr">
+      <div class="listhead text-dark font-weight-light">MAIN</div>
+      <div class="l list list-flush">
+        <a href="#" class="list-group waves-effect text-dark sidebar-items">
+          <i class="fa fa-table mr-3" aria-hidden="true"></i>Dashboard
+        </a>
+        <a href="#" class="list-item waves-effect text-dark">
+          <span style="color: #FDA403;"><i class="fa fa-user mr-3"></i>Order</span>
+          </a><br>
+
+        <a href="#" class="list-item waves-effect text-dark">
+          <i class="fa fa-car mr-3"></i>Driver</a><br>
+        <a href="#" class="list-item waves-effect text-dark">
+          <i class="fa fa-users mr-3"></i>Customer</a><br>
+        <a href="#" class="list-item waves-effect text-dark">
+          <i class="fa fa-credit-card mr-3"></i>Payment</a><br>
+      </div>
+      <br>
+      <div class="listhead text-dark font-weight-light">HELP</div>
+      <div class="l list list-flush">
+        <a href="#" class="list-item waves-effect text-dark">
+          <i class="fa fa-bell mr-3"></i>Notifications</a><br>
+
+        <a href="#" class="list-item waves-effect text-dark">
+          <i class="fa fa-wrench mr-3"></i>Settings</a><br>
+
+        <a href="#" class="list-item waves-effect text-dark">
+          <i class="fa fa-power-off mr-3"></i>Logout
+        </a><br>
+      </div>
+    </div>
+    <!-- /Sidebar -->
+    <!-- main body -->
+     <div class="mai flex-fill">
+
+      <div class="top-right d-flex justify-content-between flex-wrap order-cont">
+        <div class="order-text flex">
+        <div class="order">Orders/<strong>Order details</strong></div>
+        <div class="under-order">Here's the order details</div>
+        </div>
+        <div class="top-buttons">
+          <a class="btn btn-outline-danger fbutton1 text-center">Cancel Order</a>
+            <a class="btn fbutton2 text-center">In Transit</a>
+        </div>
+      </div>
+
+
+
+      <div class="container d-flex justify-content-between orderbardiv">
+        <div id="bash" class="d-flex text-white align-items-center justify-content-between"> 
+          <div class="innercircle"></div>
+          <div class="">
+            <div>Assigned Driver</div>
+            <div class="item-text">Dada Ope</div>
+            <div>Bike No 412455</div>
+          </div>
+        </div>
+       
+        <div class="button-container">
+          <div class="item text-white">
+            <div>
+              <!-- <i class="fa fa-phone-alt fa-lg"></i> -->
+              <img src="img/icons8-phone-24.png" class="imgstyle"></div>
+            <div class="ft">
+              <div>Telephone</div>
+              <div class="item-text">+234 812 45 6789</div>
+            </div>
+          </div>
+          <div class="item text-white">
+              <div>
+              <!-- <i class="fa fa-phone-alt fa-lg"></i> -->
+              <img src="img/icons8-in-transit-24.png"  class="imgstyle"></div>
+            <div class="ft">
+              <div>Delivery Status</div>
+              <div class="item-text">In Transit</div>
+            </div>
+          </div>
+          <div class="item text-white">
+              <div>
+              <!-- <i class="fa fa-phone-alt fa-lg"></i> -->
+              <img src="img/icons8-holding-hand-24.png" class="imgstyle"></div>
+              <div class="ft">
+              <div>Delivery Fee</div>
+              <div class="item-text">N2,000 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Card-->
+   
+      <!--Grid row-->
+      <div class="row wow fadeIn mt-3">
+
+        <!--Grid column-->
+        <div class="col-md-6 col-lg-4 mb-4 cardmargin">
+
+          <!--Card-->
+          <div class="card">
+
+            <!-- Card header -->
+            <div class="card-header headers">Pickup Details</div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+              <div class="container">
+                <div class="">
+                  <p>
+                    <span style=" color: #FDA403;">
+                  <i class="fa fa-compass mr-2"></i></span>
+                <span class="styling">15, Tobi rentals, Ologuneru, Ibadan</span>
+                  </p>
+                <p href="#" class=" text-dark styling">
+                <i class="fa fa-user mr-3"></i>Luthfulahi Baba</p>
+
+                <p href="#" class="text-dark styling">
+                <i class="fa fa-mobile mr-3"></i>+234 807 968 4566</p>
+
+                <p href="#" class="text-dark styling">
+                <i class="fa fa-sticky-note  mr-3"></i>Pickup Instructions</p>
+                <p class="paddingleft">Please call 5 Minutes before arrival so as not to delay you.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 col-lg-4 mb-4 cardmargin">
+
+          <!--Card-->
+          <div class="card">
+
+            <!-- Card header -->
+            <div class="card-header headers">Dropoff Details</div>
+
+            <!--Card content-->
+            <div class="card-body">
+
+             <div class="container">
+              <p><span style=" color: #27AE60;">
+                  <i class="fa fa-compass mr-2"></i></span>
+                <span class="styling">8a, Alao Drive, Oluyole estate, Ibadan</span></p>
+              
+
+                <p href="#" class=" text-dark styling">
+                <i class="fa fa-user mr-3 "></i>Sodiq O. Baba</p>
+
+                <p href="#" class="text-dark styling">
+                <i class="fa fa-mobile mr-3"></i>+234 812 45 6789</p>
+                
+                <p href="#" class="text-dark styling">
+                <i class="fa fa-sticky-note  mr-3"></i>Pickup Instructions</p>
+                <p class="paddingleft">Please call 5 Minutes before arrival so as not to delay you.</p>
+              </div>
+
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-6 col-lg-4 mb-4 cardmargin">
+          <!--Card-->
+          <div class="card">
+            <!-- Card header -->
+          <div class="card-header headers">Delivery Timeline </div>
+            <!--Card content-->
+            <div class="card-body">
+              <div class="container">
+                <div class="rounded-circle rd float-left m-0">
+                  <img src="img/icons8-in-transit-24.png" class="imgstyle2"></div>
+                <span class="styling ml-3">Driver assigned</span>
+                <div><i class="fa fa-calendar-alt ml-3 mr-2 st"></i>2020/03/21 - 09:10</div>
+
+                <div class="rounded-circle rd float-left m-0">
+                  <img src="img/icons8-in-transit-24.png" class="imgstyle2"></div>
+                <span class="styling ml-3">Package picked up by Driver</span>
+                <div><i class="fa fa-calendar-alt ml-3 mr-2 st" ></i>2020/03/21 - 09:10</div>
+
+                <div class="rounded-circle rd float-left m-0">
+                  <img src="img/icons8-in-transit-24.png" class="imgstyle2"></div>
+                <span class="styling ml-3">Driver On the journey</span><br>
+                
+                <div class="rounded-circle rd float-left m-0">
+                  <img src="img/icons8-in-transit-24.png" class="imgstyle2"></div>
+                <span class="styling ml-3">Driver On the journey</span>
+               
+              </div>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+      </div>
+    </div>
+          <!--/.Card-->
+    <!-- /main body -->
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

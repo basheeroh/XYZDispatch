@@ -1,0 +1,74 @@
+
+.toggle-icon {
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.toggle-icon span{
+    display: block;
+    height: 5px;
+    background-color:  #FDA403;
+    margin: 5px 0px;
+}
+
+/* Mobile/Tablet view.. */
+@media screen and (max-width: 900px) {
+
+    /* Side nav */
+    .sidenav {
+      width: 0px;
+    }
+  
+    /* Top Nav  */
+    .navbar{
+       margin-left: 0px;
+       z-index: 1;
+    }
+  
+  
+    /* Main body */
+    .mai {
+      margin-left: 0px;
+    }
+  
+    /* Button Container  */
+    .button-container {
+        width: 100%;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .item {
+      height: unset;
+      width: unset;
+      padding: 8px;
+      font-size: 14px;
+  }
+  
+  .ft div:first-child {
+    display: none;
+  }
+  .toggle-icon {
+    display: block;
+  }
+  .imgstyle{
+    margin-top: 0;
+    margin-right: 0;
+    height: unset;
+  }
+  .card, .orderbardiv, .order-cont {
+      width: 90%;
+      margin: auto;
+  }
+
+  .orderbardiv {
+      height: unset;
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  #bash {
+      justify-content: flex-start;
+  }
+
+  }

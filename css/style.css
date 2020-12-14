@@ -1,0 +1,231 @@
+/* The sidebar menu */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.st{
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 16px;
+color: #A8A8A8;
+}
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left:0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  background: white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+  transition: all 0.2s;
+}
+.sidebar-items{
+font-weight: 500px;
+font-size: 14px;
+/*line-height: 21px;*/
+letter-spacing: 0.1px;
+color: #171725;
+}
+.listhead{
+padding-left: 20px;
+}
+.under-order{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+color: #969BA0;
+}
+.order{
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+
+color: #171725;
+}
+.c{
+  color: #49Bc;
+}
+.hr{
+  padding:0; 
+  border-color: rgb(248, 244, 244);
+  border-width: 4px;
+}
+.paddingleft{
+margin-left: 26px;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 22px;
+color: #343434;
+}
+.sidenav img{
+ margin-right: 50px;
+ margin-left: 50px;
+  height: 100px;
+}
+.l{
+ margin-right: 15px;
+ margin-left: 15px;
+ padding: 5px;
+}
+.orderbardiv {
+  margin-top: 4%;
+  height:120px;
+  background: #3E4954;
+  box-shadow: 0px 12px 33px rgba(62, 73, 84, 0.08);
+  border-radius: 12px;
+  
+}
+
+.styling{
+font-weight: 600;
+font-size: 12px;
+line-height: 24px;
+color: #343434;
+}
+.headers{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+color: #171725;
+}
+.xyzcolor{
+    color: #FDA403;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 0px;
+    font-weight:300px;
+}
+.navbar-brand .navbar{
+    height:50px;
+
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color:grey;
+}
+
+/* Style page content */
+.mai {
+  margin-top: 55px;
+  padding-top: 2%;
+  margin-left:220px; /* Same as the width of the sidebar */
+  margin-right:20px;
+  max-width:100%;
+  overflow-x: hidden;
+}
+.innercircle{
+background: #C4C4C4;
+border-radius: 50%;
+height: 80px;
+width: 80px;
+margin-right: 20px;
+}
+
+.button-container {
+    display: flex;
+    width: 70%;
+    justify-content: right;
+    align-items: center;
+}
+
+.top-right {
+    display: flex;
+    width: 100%;
+}
+.item {
+  display: inline-flex;
+    background:#FDA403;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    margin-right:2em;
+    margin-top: 7px;
+    padding: 6px;
+}
+.item-text{
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+}
+.imgstyle{
+  height: 30px;
+   margin-top:5px; 
+   margin-right:8px
+}
+.imgstyle2{
+  height: 20px;
+   margin-top: 5px;
+   margin-left: 5px;
+}
+.top-buttons {
+    display: flex;
+}
+/*.ft{
+margin-top: 1px;
+  text-align: center;
+}*/
+
+.fbutton1{
+text-transform: none;
+background: #FAFCFE;
+border: 1px solid #FF1A00;
+border-radius: 8px;
+color: #FF0000;
+width:150px;
+height: 45px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+}
+.rd{
+  display: inline-flex;
+  height: 30px;
+  width:30px;
+  background-color:#FDA403;
+}
+.fbutton2{
+text-transform: none;
+background: #FDA403;
+border-radius: 8px;
+height: 45px;
+width:150px;
+text-align: left;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+}
+.cardmargin{
+    height: 363.5px;
+    }
+.innercirle-flex{
+    padding-top: 20px;
+    margin-left: 100px;
+}
+.footer{
+  margin-left: 200px;
+}
+.navbar{
+   margin-left: 200px;
+}
+
+
+
